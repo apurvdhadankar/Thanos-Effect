@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>THANOS</title>
+	<style>
+		*{ margin: 0; padding: 0; }
+
+		div{
+			height: 100vh; display: flex; justify-content: center; align-items: center;  background-color: black; 
+		}
+
+		ul li{ color: white; list-style: none; display: inline-block; font-size: 11rem; text-transform: uppercase; 
+			transition: all 1s linear; text-shadow: 1px 2px 4px yellow; }
+
+		ul:hover li{
+			transform: translateY(-150px) rotate(50deg);
+			filter: blur(20px); opacity: 0;
+		}
+		
+		ul li:nth-child(1){
+			transition-delay: 0s;
+		}
+
+		ul li:nth-child(2){
+			transition-delay: 0.4s;
+		}
+
+		ul li:nth-child(3){
+			transition-delay: 0.8s;
+		}
+
+		ul li:nth-child(4){
+			transition-delay: 1.2s;
+		}
+
+		ul li:nth-child(5){
+			transition-delay: 1.6s;
+		}
+
+		ul li:nth-child(6){
+			transition-delay: 2.0s;
+		}
+	</style>
+</head>
+<body>
+
+	<div>
+		<ul>
+			<li>T</li>
+			<li>h</li>
+			<li>a</li>
+			<li>n</li>
+			<li>o</li>
+			<li>s</li>
+		</ul>
+		
+	</div>
+
+</body>
+</html>
