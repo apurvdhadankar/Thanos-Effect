@@ -1,0 +1,15 @@
+{
+	"name": "neoDataFactory",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "332c1b01-6411-4f4a-8c74-e95a4e2e72ed",
+		"tenantId": "ff4e2413-65ab-4dc2-9e5b-1ea02d3d94eb",
+		"userAssignedIdentities": {
+			"/subscriptions/1d767489-da0c-4948-a285-bf2c708c0586/resourcegroups/NeovaGroupResources/providers/Microsoft.ManagedIdentity/userAssignedIdentities/dataIdentity": {
+				"clientId": "897dd496-60a5-4204-9156-95ff291af2fd",
+				"principalId": "92198768-b209-4848-9d60-610290898863"
+			}
+		}
+	}
+}
