@@ -17,7 +17,7 @@ steps:
 - task: PublishBuildArtifacts@1
 - task: QualysIaCSecurityConnector@1
   inputs:
-    IacService: iam
+    IacService: 'S3'
     dataCheckFrequency: true
     scanName: test
     scanDirectory: '$(build.sourcesDirectory)'
